@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* custom color */
+:root{
+    --Nutmeg: hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(15, 4%, 18%);
+}
+
+body{
+   /*  background-color: var(--DarkRaspberry);
+    color: var(--Nutmeg);*/
+    font-size: 16px;
+    background-color: rgba(243,229,216,255);
+    box-sizing: border-box;
+} 
+
+
+
+
+.first{
+    font-family: 'Outfit';
+    font-weight: 400;
+}
+@media (min-width: 992px) and (max-width: 1440px){
+main{
+        background-color: white;
+        max-width: 50%;
+       padding: 25px;
+       margin: 10% auto;
+       border-radius: 15px;
+    }
+
+    h1{
+    font-family: 'Young Serif';
+    font-weight: 400;
+    margin-left: 2%;
+    font-size: 3.2rem;
+}
+.first{
+    color: var(--WengeBrown);
+    margin-left: 2%;
+    
+}
+
+main img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.Prep-time{
+    font-family: 'Outfit';
+    background-color: var(--RoseWhite);
+    padding: 15px;
+    margin: 2rem 0;
+    border-radius: 5%;
+    font-weight: 600;
+}
+
+.Prep-time h3{
+     color: var(--DarkRaspberry);
+     padding-left: 4%;
+}
+
+.Prep-time li{
+    margin-bottom: 2%;
+    color: var(--WengeBrown);
+    padding-left: 3%;
+    list-style: disc;
+    
+}
+
+.Prep-time li::marker{
+    color: var(--DarkRaspberry);
+}
+
+.food-stuff{
+    border-bottom: 1px solid var(--DarkCharcoal);
+    margin: 10px 0;
+}
+
+.food-stuff h2{
+    color: var(--Nutmeg);
+    font-family: 'Young Serif';
+    padding-left: 2%;
+}
+
+.food-stuff li{
+    font-family: 'Outfit';
+    margin-bottom: 1%;
+    color: var(--WengeBrown);
+    padding-left: 2%;
+}
+
+.guide h2{
+    font-family: 'Young Serif';
+    color: var(--Nutmeg);
+    padding-left: 2%;
+}
+
+.guide li{
+    padding-left: 1%;
+    margin: 1%;
+    color: var(--WengeBrown);
+    font-family: 'Outfit';
+    font-weight: 400;
+}
+
+.guide{
+    border-bottom: 1px solid var(--WengeBrown);
+}
+
+table tr td{
+    width: 200px;
+    margin: auto;
+    padding: 30px;
+    border-bottom: 1px solid var(--WengeBrown);
+    border-collapse: collapse;
+}
+table{
+    padding-left: 2%;
+}
+
+td:last-child{
+    color: var(--Nutmeg);
+    
+}
+
+td:first-child{
+    color: var(--WengeBrown);
+  
+}
+#topic {
+    color: var(--Nutmeg);
+    font-family: 'Young Serif';
+    padding-left: 2%;
+    font-weight: 400;
+}
+#final{
+    color: var(--WengeBrown);
+    padding-left: 2%;
+}
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+    main{
+        background-color: white;
+        max-width: 50%;
+        border-radius: 15px;
+    }
+   
+    main img{
+        max-width: 100%;
+    }
+    
+
+    h1{
+        font-family: 'Young Serif';
+        font-weight: 400;
+        margin-left: 2%;
+    }
+    .first{
+        color: var(--WengeBrown);
+        margin-left: 2%;
+        
+    }
+
+
+body{
+    background-color: white;
+}
+
+   main{
+    max-width: 100%;
+    padding: 0;
+   }
+    
+    .Prep-time{
+        font-family: 'Outfit';
+        background-color: var(--RoseWhite);
+        padding: 5px;
+        margin-left: 2%;
+        border-radius: 5%;
+    }
+    
+    .Prep-time h3{
+         color: var(--DarkRaspberry);
+         padding-left: 4%;
+    }
+    
+    .Prep-time li{
+        margin-bottom: 2%;
+        color: var(--WengeBrown);
+        padding-left: 3%;
+        
+    }
+    
+    .food-stuff{
+        border-bottom: 1px solid var(--WengeBrown);
+    }
+    
+    .food-stuff h2{
+        color: var(--Nutmeg);
+        font-family: 'Young Serif';
+        padding-left: 2%;
+    }
+    
+    .food-stuff li{
+        font-family: 'Outfit';
+        margin-bottom: 1%;
+        color: var(--WengeBrown);
+        padding-left: 2%;
+    }
+    
+    .guide h2{
+        font-family: 'Young Serif';
+        color: var(--Nutmeg);
+        padding-left: 2%;
+    }
+    
+    .guide li{
+        padding-left: 1%;
+        margin: 1%;
+        color: var(--WengeBrown);
+        font-family: 'Outfit';
+        font-weight: 400;
+    }
+    
+    .guide{
+        border-bottom: 1px solid var(--WengeBrown);
+    }
+    
+    table tr td{
+        width: 200px;
+        margin: auto;
+        padding: 30px;
+        border-bottom: 1px solid var(--WengeBrown);
+    }
+    table{
+        padding-left: 2%;
+    }
+    
+    td:last-child{
+        color: var(--Nutmeg);
+    }
+    
+    td:first-child{
+        color: var(--WengeBrown);
+    }
+    #topic {
+        color: var(--Nutmeg);
+        font-family: 'Young Serif';
+        padding-left: 2%;
+        font-weight: 400;
+    }
+    #final{
+        color: var(--WengeBrown);
+        padding-left: 2%;
+    }
+    
+}
